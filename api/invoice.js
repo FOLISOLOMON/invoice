@@ -16,12 +16,20 @@ export default async function handler(req, res) {
     // 1️⃣ Generate PDF
     const pdfBuffer = await generateInvoicePDF({ customerName, email, amount, reference });
 
-    // 2️⃣ Send via Resend
+    if (!pdfBuffer) {
+      return res.status(500).json({ error: "Failed to generate PDF" });
+    }
+
+    // 2️⃣ Send via Resend (using base64 content)
     const emailResult = await sendInvoiceEmail(
       email,
       "Your Invoice",
       `Hello ${customerName},\n\nPlease find your invoice attached.`,
-      pdfBuffer
+      {
+        content: pdfBuffer.toString("base64"),
+        filename: `${reference}.pdf`,
+        type: "application/pdf"
+      }
     );
 
     return res.status(200).json({ message: "Invoice sent successfully!", emailResult });
