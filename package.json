@@ -1,0 +1,14 @@
+{
+  "name": "invoice-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node api/health.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "pdf-lib": "^1.17.1",
+    "resend": "^6.4.2"
+  }
+}
