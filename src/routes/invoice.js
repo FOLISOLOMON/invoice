@@ -7,21 +7,29 @@ const router = express.Router();
 
 const schema = Joi.object({
   clientEmail: Joi.string().email().required(),
+
   invoiceData: Joi.object({
     clientName: Joi.string().required(),
     invoiceNumber: Joi.string().required(),
     date: Joi.string().required(),
+    dueDate: Joi.string().required(),
+
     items: Joi.array().items(
       Joi.object({
-        name: Joi.string().required(),
-        quantity: Joi.number().integer().min(1).required(),
+        id: Joi.number().required(),             // allow id
+        description: Joi.string().required(),    // fix description
+        quantity: Joi.number().min(1).required(),
         price: Joi.number().min(0).required(),
+        tax: Joi.number().min(0).required(),     // allow tax
       })
     ).required(),
+
     total: Joi.number().min(0).required(),
   }).required(),
+
   pdfBase64: Joi.string().required(),
 });
+
 
 router.post('/send-invoice', async (req, res) => {
   try {

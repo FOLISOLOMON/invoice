@@ -24,7 +24,7 @@ const sendInvoiceEmail = async (clientEmail, invoiceData, pdfBuffer) => {
     amount: invoiceData.total * 100,  // Paystack expects amount in kobo (for NGN) or cents
     email: clientEmail,
     reference: `INV-${invoiceData.invoiceNumber}-${Date.now()}`,  // Unique reference
-    callback_url: `${process.env.BASE_URL}/api/payment-success`,  // Optional: Redirect after payment
+    callback_url: `${process.env.BASE_URL}/api/paystack/payment-success`,  // Optional: Redirect after payment
   };
 
   let paymentUrl = '';
@@ -41,21 +41,70 @@ const sendInvoiceEmail = async (clientEmail, invoiceData, pdfBuffer) => {
   }
 
   const emailBody = `
-    <html>
-      <body>
-        <p>Hello ${invoiceData.clientName},</p>
-        <p>Thank you for your order. Here are your invoice details:</p>
-        <p><strong>Invoice Number:</strong> ${invoiceData.invoiceNumber}</p>
-        <p><strong>Date:</strong> ${invoiceData.date}</p>
-        <ul>
-          ${invoiceData.items.map(item => `<li>${item.name} – Qty: ${item.quantity} – $${item.price}</li>`).join('')}
-        </ul>
-        <p><strong>Total:</strong> $${invoiceData.total}</p>
-        <p><a href="${paymentUrl}" style="background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Pay Now</a></p>
-        <p>Best regards,<br>Your Company</p>
-      </body>
-    </html>
-  `;
+<html>
+  <body style="font-family: Arial, sans-serif; background-color: #f4f4f7; margin: 0; padding: 0;">
+    <div style="max-width: 600px; margin: auto; background-color: #ffffff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+      
+      <!-- Header -->
+      <div style="text-align: center; margin-bottom: 30px;">
+        <h1 style="color: #333;">Your Company Name</h1>
+        <p style="color: #777; font-size: 14px;">Professional Invoice</p>
+      </div>
+      
+      <!-- Greeting -->
+      <p>Hello <strong>${invoiceData.clientName}</strong>,</p>
+      <p>Thank you for your order! Here are the details of your invoice:</p>
+      
+      <!-- Invoice Info -->
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+        <tr>
+          <td style="padding: 8px; border: 1px solid #ddd;"><strong>Invoice Number:</strong></td>
+          <td style="padding: 8px; border: 1px solid #ddd;">${invoiceData.invoiceNumber}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; border: 1px solid #ddd;"><strong>Date:</strong></td>
+          <td style="padding: 8px; border: 1px solid #ddd;">${invoiceData.date}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; border: 1px solid #ddd;"><strong>Due Date:</strong></td>
+          <td style="padding: 8px; border: 1px solid #ddd;">${invoiceData.dueDate}</td>
+        </tr>
+      </table>
+
+      <!-- Items Table -->
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+        <tr style="background-color: #f0f0f0;">
+          <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Item</th>
+          <th style="padding: 10px; border: 1px solid #ddd; text-align: right;">Qty</th>
+          <th style="padding: 10px; border: 1px solid #ddd; text-align: right;">Price</th>
+        </tr>
+        ${invoiceData.items.map(item => `
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ddd;">${item.description}</td>
+          <td style="padding: 10px; border: 1px solid #ddd; text-align: right;">${item.quantity}</td>
+          <td style="padding: 10px; border: 1px solid #ddd; text-align: right;">$${item.price}</td>
+        </tr>`).join('')}
+        <tr>
+          <td colspan="2" style="padding: 10px; border: 1px solid #ddd; text-align: right;"><strong>Total</strong></td>
+          <td style="padding: 10px; border: 1px solid #ddd; text-align: right;"><strong>$${invoiceData.total}</strong></td>
+        </tr>
+      </table>
+
+      <!-- Payment Button -->
+      <div style="text-align: center; margin-bottom: 30px;">
+        <a href="${paymentUrl}" style="background-color: #28a745; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">Pay Now</a>
+      </div>
+
+      <!-- Footer -->
+      <p style="font-size: 12px; color: #999; text-align: center;">
+        If you have any questions, please contact us at <a href="mailto:support@yourcompany.com">support@yourcompany.com</a>.
+      </p>
+      <p style="font-size: 12px; color: #999; text-align: center;">&copy; ${new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+    </div>
+  </body>
+</html>
+`;
+
 
   const mailOptions = {
     from: process.env.FROM_EMAIL,

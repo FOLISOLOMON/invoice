@@ -13,3 +13,84 @@
 2025-11-14T10:46:11.912Z [info]: Server running on port 3000
 2025-11-14T10:46:14.505Z [info]: Server running on port 3000
 2025-11-14T12:33:46.632Z [info]: Server running on port 3000
+2025-11-14T20:17:39.930Z [info]: Server running on port 3000
+2025-11-14T20:17:41.915Z [info]: Server running on port 3000
+2025-11-14T20:18:21.583Z [warn]: Validation error: "invoiceData.items[0].name" is required
+2025-11-14T20:18:23.600Z [info]: Server running on port 3000
+2025-11-14T20:23:17.237Z [warn]: Validation error: "invoiceData.items[0].name" is required
+2025-11-14T20:30:51.969Z [warn]: Validation error: "invoiceData.items[0].id" is not allowed
+2025-11-14T20:34:17.529Z [info]: Server running on port 3000
+2025-11-14T20:34:33.148Z [warn]: Validation error: "invoiceData.items[0].name" is not allowed
+2025-11-14T20:35:47.524Z [warn]: Validation error: "invoiceData.items[0].name" is not allowed
+2025-11-14T20:39:37.100Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/e8jdcmkmvpatt31
+2025-11-14T20:39:38.151Z [warn]: Retry 1: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-477951c5d89sm25585605e9.0 - gsmtp
+2025-11-14T20:39:40.398Z [warn]: Retry 2: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-42b53e7ae5bsm11887049f8f.8 - gsmtp
+2025-11-14T20:39:43.904Z [warn]: Retry 3: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-47787e8e798sm159995355e9.10 - gsmtp
+2025-11-14T20:39:50.916Z [error]: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-42b53f203afsm12141011f8f.39 - gsmtp
+2025-11-14T20:41:30.014Z [info]: Server running on port 3000
+2025-11-14T20:51:13.667Z [info]: Server running on port 3000
+2025-11-14T20:51:22.114Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/bn301dv7o08plug
+2025-11-14T20:51:24.807Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T21:26:48.187Z [info]: Server running on port 3000
+2025-11-14T21:26:50.357Z [info]: Server running on port 3000
+2025-11-14T21:32:13.998Z [info]: Server running on port 3000
+2025-11-14T21:35:50.836Z [info]: Server running on port 3000
+2025-11-14T21:44:27.054Z [info]: Server running on port 3000
+2025-11-14T21:44:31.146Z [info]: Server running on port 3000
+2025-11-14T21:44:43.008Z [info]: Server running on port 3000
+2025-11-14T21:44:43.831Z [info]: Paystack transaction initialized for INV-500341: https://invoice-gyz5.onrender.com/api/payment-success?trxref=INV-INV-500341-1763156683207
+2025-11-14T21:44:47.304Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T21:46:30.321Z [info]: Server running on port 3000
+2025-11-14T21:47:34.250Z [info]: Server running on port 3000
+2025-11-14T21:47:58.294Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/7s3wwn3frehyc7g
+2025-11-14T21:48:01.383Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T21:49:34.571Z [info]: Server running on port 3000
+2025-11-14T21:50:54.749Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/38tnc8ebktmwqb9
+2025-11-14T21:50:56.989Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T21:52:13.801Z [info]: Server running on port 3000
+2025-11-14T21:55:32.249Z [info]: Server running on port 3000
+2025-11-14T21:56:15.068Z [info]: Paystack transaction initialized for INV-500341: https://invoice-gyz5.onrender.com/api/payment-success?trxref=INV-INV-500341-1763157374523
+2025-11-14T21:56:17.984Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T21:58:50.399Z [info]: Server running on port 3000
+2025-11-14T22:01:02.098Z [info]: Server running on port 3000
+2025-11-14T22:01:50.626Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/u9s4lodx3pciqhy
+2025-11-14T22:01:53.101Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T22:07:06.947Z [info]: Server running on port 3000
+2025-11-14T22:07:18.070Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/6apohjp7qixkfbr
+2025-11-14T22:07:21.174Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T22:10:06.465Z [info]: Server running on port 3000
+2025-11-14T22:10:30.987Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/dyz727nnxemqwsf
+2025-11-14T22:10:34.132Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T22:12:34.601Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/mbgok0lvflew64z
+2025-11-14T22:12:36.759Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T22:15:39.039Z [info]: Server running on port 3000
+2025-11-14T22:16:17.454Z [info]: Server running on port 3000
+2025-11-14T22:16:34.257Z [info]: Server running on port 3000
+2025-11-14T22:17:09.627Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/ypwh0zg11j9n1o2
+2025-11-14T22:17:12.240Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T22:21:05.124Z [info]: Server running on port 3000
+2025-11-14T22:21:43.434Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/9q1x6v3uof5582f
+2025-11-14T22:21:47.844Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T22:25:43.157Z [info]: Server running on port 3000
+2025-11-14T22:25:45.362Z [info]: Server running on port 3000
+2025-11-14T22:25:54.267Z [info]: Server running on port 3000
+2025-11-14T22:26:09.044Z [info]: Server running on port 3000
+2025-11-14T22:26:19.822Z [info]: Server running on port 3000
+2025-11-14T22:26:28.700Z [info]: Server running on port 3000
+2025-11-14T22:26:59.386Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/tel9qclb6uolq37
+2025-11-14T22:27:02.333Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T22:29:46.429Z [error]: Payment verification failed for ANY_REFERENCE: 400 - {"status":false,"message":"Transaction reference not found.","meta":{"nextStep":"Ensure that you're passing the reference of a transaction that exists on this integration"},"type":"validation_error","code":"transaction_not_found"}
+2025-11-14T22:32:09.665Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/55hijumtbp6i1wk
+2025-11-14T22:32:13.620Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T22:34:07.083Z [info]: Server running on port 3000
+2025-11-14T22:34:09.632Z [info]: Server running on port 3000
+2025-11-14T22:38:28.033Z [info]: Server running on port 3000
+2025-11-14T22:38:48.406Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/e2h40t4hrrikt35
+2025-11-14T22:38:51.700Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
+2025-11-14T22:44:26.532Z [info]: Server running on port 3000
+2025-11-14T22:44:40.947Z [info]: Paystack transaction initialized for INV-500341: https://checkout.paystack.com/9yd5rosfn89nony
+2025-11-14T22:44:43.348Z [info]: Email sent to foliremedy50@gmail.com for INV-500341
