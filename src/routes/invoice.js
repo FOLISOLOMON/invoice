@@ -5,31 +5,32 @@ const logger = require('../utils/logger');
 
 const router = express.Router();
 
+// Updated schema - no more pdfBase64 needed!
 const schema = Joi.object({
   clientEmail: Joi.string().email().required(),
-
+  
   invoiceData: Joi.object({
     clientName: Joi.string().required(),
     invoiceNumber: Joi.string().required(),
     date: Joi.string().required(),
     dueDate: Joi.string().required(),
-
+    
     items: Joi.array().items(
       Joi.object({
-        id: Joi.number().required(),             // allow id
-        description: Joi.string().required(),    // fix description
+        id: Joi.number().required(),
+        description: Joi.string().required(),
         quantity: Joi.number().min(1).required(),
         price: Joi.number().min(0).required(),
-        tax: Joi.number().min(0).required(),     // allow tax
+        tax: Joi.number().min(0).required(),
       })
     ).required(),
-
+    
     total: Joi.number().min(0).required(),
   }).required(),
-
-  pdfBase64: Joi.string().required(),
+  
+  // Optional brand selection
+  brandKey: Joi.string().valid('primegraphics', 'webicx').default('primegraphics'),
 });
-
 
 router.post('/send-invoice', async (req, res) => {
   try {
@@ -39,16 +40,19 @@ router.post('/send-invoice', async (req, res) => {
       return res.status(400).json({ error: error.details[0].message });
     }
 
-    const { clientEmail, invoiceData, pdfBase64 } = value;
-    const pdfBuffer = Buffer.from(pdfBase64, 'base64');
+    const { clientEmail, invoiceData, brandKey } = value;
 
-    await sendInvoiceEmail(clientEmail, invoiceData, pdfBuffer);
-    res.status(200).json({ status: 'success' });
+    // Backend now generates the PDF with embedded logo and watermark
+    await sendInvoiceEmail(clientEmail, invoiceData, brandKey);
+    
+    res.status(200).json({ 
+      status: 'success',
+      message: 'Invoice email sent successfully' 
+    });
   } catch (err) {
-    logger.error(`Error: ${err.message}`);
-    res.status(500).json({ error: 'Failed to send email' });
+    logger.error(`Error sending invoice: ${err.message}`);
+    res.status(500).json({ error: 'Failed to send invoice email' });
   }
 });
 
 module.exports = router;
-

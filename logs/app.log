@@ -119,3 +119,156 @@
 2025-11-15T11:01:03.774Z [info]: Server running on port 3000
 2025-11-15T11:01:05.963Z [info]: Server running on port 3000
 2025-11-15T11:01:38.211Z [info]: Server running on port 3000
+2025-11-15T11:04:17.547Z [info]: Server running on port 3000
+2025-11-15T11:35:55.569Z [info]: Server running on port 3000
+2025-11-15T15:19:41.072Z [info]: Server running on port 3000
+2025-11-15T15:19:44.565Z [info]: Server running on port 3000
+2025-11-15T17:28:36.156Z [info]: Server running on port 3000
+2025-11-15T17:28:38.131Z [info]: Server running on port 3000
+2025-11-15T17:31:03.563Z [info]: Server running on port 3000
+2025-11-15T17:45:27.757Z [info]: Server running on port 3000
+2025-11-15T17:46:28.950Z [info]: Server running on port 3000
+2025-11-15T17:46:29.844Z [info]: Paystack transaction initialized for INV-763816: https://checkout.paystack.com/khoypgxi2gbqolh
+2025-11-15T17:46:32.294Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-763816
+2025-11-15T17:59:42.408Z [info]: Paystack transaction initialized for INV-763816: https://checkout.paystack.com/29hagsyyckxxcx8
+2025-11-15T17:59:43.524Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-763816
+2025-11-15T18:01:13.412Z [info]: Paystack transaction initialized for INV-636818: https://checkout.paystack.com/3kge7t8s0bik5pd
+2025-11-15T18:01:14.876Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-636818
+2025-11-15T18:08:41.843Z [info]: Server running on port 3000
+2025-11-15T18:09:10.736Z [info]: Paystack transaction initialized for INV-636818: https://checkout.paystack.com/x1xgnw0aw3sg0sw
+2025-11-15T18:09:11.940Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-636818
+2025-11-15T18:28:44.241Z [info]: Server running on port 3000
+2025-11-15T18:28:46.674Z [info]: Server running on port 3000
+2025-11-15T19:10:34.992Z [info]: Server running on port 3000
+2025-11-15T19:25:23.004Z [info]: Server running on port 3000
+2025-11-15T19:27:13.780Z [info]: Server running on port 3000
+2025-11-15T19:27:14.497Z [info]: Paystack transaction initialized for INV-806593: https://checkout.paystack.com/zrvap67ykh5zay1
+2025-11-15T19:27:15.554Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-806593
+2025-11-15T19:42:49.190Z [info]: Server running on port 3000
+2025-11-15T19:42:51.177Z [info]: Server running on port 3000
+2025-11-15T19:42:59.844Z [info]: Server running on port 3000
+2025-11-15T19:43:01.937Z [info]: Server running on port 3000
+2025-11-15T19:54:44.630Z [info]: Server running on port 3000
+2025-11-15T20:01:25.934Z [info]: Paystack transaction initialized for INV-866252: https://checkout.paystack.com/knd8ocbsxw79f9v
+2025-11-15T20:01:27.069Z [warn]: Retry 1: Missing credentials for "PLAIN"
+2025-11-15T20:01:29.098Z [warn]: Retry 2: Missing credentials for "PLAIN"
+2025-11-15T20:01:34.057Z [warn]: Retry 3: Missing credentials for "PLAIN"
+2025-11-15T20:01:41.130Z [error]: Error: Missing credentials for "PLAIN"
+2025-11-15T20:09:23.401Z [info]: Server running on port 3000
+2025-11-15T20:14:56.123Z [info]: Server running on port 3000
+2025-11-15T20:15:05.414Z [info]: Paystack transaction initialized for INV-866252: https://checkout.paystack.com/x3sdzopgl2onwb3
+2025-11-15T20:15:07.776Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-866252
+2025-11-15T20:17:18.100Z [info]: Paystack transaction initialized for INV-823457: https://checkout.paystack.com/y0cq0fjizrtr567
+2025-11-15T20:17:20.791Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-823457
+2025-11-15T20:18:00.949Z [info]: Server running on port 3000
+2025-11-15T20:23:12.000Z [info]: Server running on port 3000
+2025-11-15T20:25:19.217Z [info]: Server running on port 3000
+2025-11-15T20:25:22.198Z [info]: Server running on port 3000
+2025-11-15T20:26:52.111Z [info]: Paystack transaction initialized for INV-823457: https://checkout.paystack.com/wv4hot6c7zyr47p
+2025-11-15T20:26:55.259Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-823457
+2025-11-15T20:29:32.872Z [info]: Paystack transaction initialized for INV-526791: https://checkout.paystack.com/ce8ujk9ba71olos
+2025-11-15T20:29:36.029Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-526791
+2025-11-15T20:36:36.897Z [info]: Server running on port 3000
+2025-11-15T20:36:42.003Z [info]: Server running on port 3000
+2025-11-15T20:36:47.792Z [info]: Server running on port 3000
+2025-11-15T20:36:53.114Z [info]: Server running on port 3000
+2025-11-15T20:37:06.139Z [info]: Server running on port 3000
+2025-11-15T20:37:14.877Z [info]: Server running on port 3000
+2025-11-15T20:37:17.945Z [info]: Server running on port 3000
+2025-11-15T20:37:20.792Z [info]: Server running on port 3000
+2025-11-15T20:37:29.928Z [info]: Server running on port 3000
+2025-11-15T20:38:10.066Z [info]: Server running on port 3000
+2025-11-15T20:38:10.731Z [info]: Paystack transaction initialized for INV-526791: https://checkout.paystack.com/aqxrsksls2exp8p
+2025-11-15T20:38:13.822Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-526791
+2025-11-15T20:47:32.981Z [info]: Server running on port 3000
+2025-11-15T20:48:51.917Z [info]: Server running on port 3000
+2025-11-15T20:50:51.853Z [info]: Server running on port 3000
+2025-11-15T20:51:30.209Z [info]: Server running on port 3000
+2025-11-15T20:52:02.815Z [info]: Paystack transaction initialized for INV-526791: https://checkout.paystack.com/ifodchj7i1kr5ss
+2025-11-15T20:52:03.883Z [warn]: Retry 1: ENOENT: no such file or directory, open 'C:\Users\Solomon\Desktop\invoice\invoice-backend\src\assets\prime.png'
+2025-11-15T20:52:06.656Z [warn]: Retry 2: ENOENT: no such file or directory, open 'C:\Users\Solomon\Desktop\invoice\invoice-backend\src\assets\prime.png'
+2025-11-15T20:52:11.409Z [warn]: Retry 3: ENOENT: no such file or directory, open 'C:\Users\Solomon\Desktop\invoice\invoice-backend\src\assets\prime.png'
+2025-11-15T20:52:19.577Z [error]: Error: ENOENT: no such file or directory, open 'C:\Users\Solomon\Desktop\invoice\invoice-backend\src\assets\prime.png'
+2025-11-15T20:55:05.032Z [info]: Server running on port 3000
+2025-11-15T20:55:09.415Z [info]: Server running on port 3000
+2025-11-15T20:55:12.376Z [info]: Server running on port 3000
+2025-11-15T20:55:13.127Z [info]: Paystack transaction initialized for INV-526791: https://checkout.paystack.com/c6739e5uid0zo19
+2025-11-15T20:55:14.135Z [warn]: Retry 1: ENOENT: no such file or directory, open 'C:\Users\Solomon\Desktop\invoice\invoice-backend\src\assets\prime.jpg'
+2025-11-15T20:55:16.689Z [warn]: Retry 2: ENOENT: no such file or directory, open 'C:\Users\Solomon\Desktop\invoice\invoice-backend\src\assets\prime.jpg'
+2025-11-15T20:55:20.084Z [warn]: Retry 3: ENOENT: no such file or directory, open 'C:\Users\Solomon\Desktop\invoice\invoice-backend\src\assets\prime.jpg'
+2025-11-15T20:55:27.213Z [error]: Error: ENOENT: no such file or directory, open 'C:\Users\Solomon\Desktop\invoice\invoice-backend\src\assets\prime.jpg'
+2025-11-15T20:55:59.094Z [info]: Server running on port 3000
+2025-11-15T20:56:03.900Z [info]: Server running on port 3000
+2025-11-15T20:56:09.059Z [info]: Server running on port 3000
+2025-11-15T20:56:19.808Z [info]: Server running on port 3000
+2025-11-15T20:56:33.872Z [info]: Server running on port 3000
+2025-11-15T20:56:38.954Z [info]: Server running on port 3000
+2025-11-15T20:56:45.300Z [info]: Server running on port 3000
+2025-11-15T20:56:49.969Z [info]: Server running on port 3000
+2025-11-15T20:58:06.754Z [info]: Paystack transaction initialized for INV-246510: https://checkout.paystack.com/nt8iexs5704ob2o
+2025-11-15T20:58:10.044Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-246510
+2025-11-15T21:05:40.769Z [info]: Server running on port 3000
+2025-11-15T21:05:54.964Z [info]: Paystack transaction initialized for INV-246510: https://checkout.paystack.com/80xda4cjmphihud
+2025-11-15T21:05:58.815Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-246510
+2025-11-15T21:47:34.867Z [info]: Server running on port 3000
+2025-11-15T21:47:37.319Z [info]: Server running on port 3000
+2025-11-15T21:47:42.211Z [info]: Generating PDF for invoice INV-156022
+2025-11-15T21:47:44.450Z [info]: Server running on port 3000
+2025-11-15T21:47:44.551Z [info]: Generating PDF for invoice INV-156022
+2025-11-15T21:48:25.785Z [error]: Paystack initialization failed: 400 - {"status":false,"message":"\"amount\" must be an integer","meta":{"nextStep":"Ensure that you're passing your amount correctly. It should be a number greater than zero, with no decimal places"},"type":"validation_error","code":"invalid_amount"}
+2025-11-15T21:48:25.786Z [error]: Error sending invoice: Failed to create payment link
+2025-11-15T21:49:57.243Z [info]: Server running on port 3000
+2025-11-15T21:50:46.385Z [info]: Generating PDF for invoice INV-428473
+2025-11-15T21:50:55.713Z [error]: Paystack initialization failed: 400 - {"status":false,"message":"Watch your spending. Amount cannot be processed online","meta":{"nextStep":"Reduce the amount you're attempting to charge the customer"},"type":"validation_error","code":"amount_exceed_limit"}
+2025-11-15T21:50:55.715Z [error]: Error sending invoice: Failed to create payment link
+2025-11-15T21:51:40.059Z [info]: Server running on port 3000
+2025-11-15T21:52:56.119Z [info]: Generating PDF for invoice INV-428473
+2025-11-15T21:53:10.907Z [info]: Paystack transaction initialized for INV-428473: https://checkout.paystack.com/yfczwxy5eteslio
+2025-11-15T21:53:14.658Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-428473
+2025-11-15T22:06:53.030Z [info]: Server running on port 3000
+2025-11-15T22:07:03.677Z [info]: Server running on port 3000
+2025-11-15T22:07:14.527Z [info]: Server running on port 3000
+2025-11-15T22:07:27.658Z [info]: Server running on port 3000
+2025-11-15T22:07:38.118Z [info]: Server running on port 3000
+2025-11-15T22:08:38.641Z [info]: Generating PDF for invoice INV-428473
+2025-11-15T22:09:03.175Z [info]: Paystack transaction initialized for INV-428473: https://checkout.paystack.com/3bn8lz61hmvbf29
+2025-11-15T22:09:06.732Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-428473
+2025-11-15T22:10:35.593Z [info]: Generating PDF for invoice INV-610826
+2025-11-15T22:10:45.984Z [info]: Paystack transaction initialized for INV-610826: https://checkout.paystack.com/1z7lleuw0n4c5gs
+2025-11-15T22:10:51.922Z [info]: Invoice email sent to foliremedy50@gmail.com for INV-610826
+2025-11-15T22:19:52.576Z [info]: Generating PDF for invoice WEB-177470
+2025-11-15T22:19:52.578Z [error]: Error sending invoice: ENOENT: no such file or directory, open 'C:\Users\Solomon\Desktop\invoice\invoice-backend\assets\webix.png'
+2025-11-15T22:22:00.109Z [info]: Generating PDF for invoice WEB-177470
+2025-11-15T22:22:11.750Z [info]: Paystack transaction initialized for WEB-177470: https://checkout.paystack.com/h05umyov9dzduye
+2025-11-15T22:22:15.759Z [info]: Invoice email sent to foliremedy50@gmail.com for WEB-177470
+2025-11-15T22:29:57.015Z [info]: Server running on port 3000
+2025-11-15T22:30:11.160Z [info]: Server running on port 3000
+2025-11-15T22:30:31.158Z [info]: Server running on port 3000
+2025-11-15T22:36:43.469Z [info]: Generating PDF for invoice PRI-165870
+2025-11-15T22:37:08.610Z [info]: Paystack transaction initialized for PRI-165870: https://checkout.paystack.com/snspiqfte43ois4
+2025-11-15T22:37:10.854Z [warn]: Retry 1: Bad Request
+2025-11-15T22:37:13.361Z [warn]: Retry 2: Bad Request
+2025-11-15T22:37:17.950Z [warn]: Retry 3: Bad Request
+2025-11-15T22:37:27.477Z [error]: Error sending invoice: Bad Request
+2025-11-15T22:37:39.300Z [info]: Generating PDF for invoice PRI-165870
+2025-11-15T22:37:47.310Z [info]: Paystack transaction initialized for PRI-165870: https://checkout.paystack.com/c00dp08zeq7ekvw
+2025-11-15T22:37:49.004Z [warn]: Retry 1: Bad Request
+2025-11-15T22:37:51.220Z [warn]: Retry 2: Bad Request
+2025-11-15T22:37:54.115Z [warn]: Retry 3: Bad Request
+2025-11-15T22:37:59.563Z [error]: Error sending invoice: Bad Request
+2025-11-15T22:41:36.706Z [info]: Generating PDF for invoice PRI-165870
+2025-11-15T22:42:40.264Z [info]: Paystack transaction initialized for PRI-165870: https://checkout.paystack.com/yy75qn4cjfyyreg
+2025-11-15T22:42:42.002Z [warn]: Retry 1: Bad Request
+2025-11-15T22:42:44.935Z [warn]: Retry 2: Bad Request
+2025-11-15T22:42:47.663Z [warn]: Retry 3: Bad Request
+2025-11-15T22:42:57.330Z [error]: Error sending invoice: Bad Request
+2025-11-15T22:48:28.213Z [info]: Server running on port 3000
+2025-11-15T22:48:32.324Z [info]: Server running on port 3000
+2025-11-15T22:51:00.890Z [info]: Generating PDF for invoice WEB-022586
+2025-11-15T22:51:08.607Z [info]: Server running on port 3000
+2025-11-15T22:51:43.546Z [info]: Generating PDF for invoice WEB-022586
+2025-11-15T22:52:06.162Z [info]: Paystack transaction initialized for WEB-022586: https://checkout.paystack.com/0q12szu65h2ykfk
+2025-11-15T22:52:09.593Z [warn]: Retry 1: Bad Request - {"errors":[{"message":"The attachment content must be base64 encoded.","field":"attachments.0.content","help":"http://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html#message.attachments.content"}]}
+2025-11-15T22:52:12.805Z [warn]: Retry 2: Bad Request - {"errors":[{"message":"The attachment content must be base64 encoded.","field":"attachments.0.content","help":"http://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html#message.attachments.content"}]}
+2025-11-15T22:52:18.251Z [warn]: Retry 3: Bad Request - {"errors":[{"message":"The attachment content must be base64 encoded.","field":"attachments.0.content","help":"http://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html#message.attachments.content"}]}
+2025-11-15T22:52:29.572Z [error]: Error sending invoice: Bad Request
