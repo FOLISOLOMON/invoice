@@ -16,6 +16,8 @@ const transporter = nodemailer.createTransport({
     user: process.env.GMAIL_USER,
     pass: process.env.GMAIL_APP_PASSWORD,
   },
+  connectionTimeout: 60000, // 60 seconds
+  socketTimeout: 60000,
 });
 
 const sendInvoiceEmail = async (clientEmail, invoiceData, pdfBuffer) => {
