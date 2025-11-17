@@ -8,13 +8,13 @@ const router = express.Router();
 // Updated schema - no more pdfBase64 needed!
 const schema = Joi.object({
   clientEmail: Joi.string().email().required(),
-  
+
   invoiceData: Joi.object({
     clientName: Joi.string().required(),
     invoiceNumber: Joi.string().required(),
     date: Joi.string().required(),
     dueDate: Joi.string().required(),
-    
+
     items: Joi.array().items(
       Joi.object({
         id: Joi.number().required(),
@@ -24,13 +24,13 @@ const schema = Joi.object({
         tax: Joi.number().min(0).required(),
       })
     ).required(),
-    
+
     total: Joi.number().min(0).required(),
-  }).required(),
-  
+  }).unknown(true).required(),
+
   // Optional brand selection
   brandKey: Joi.string().valid('primegraphics', 'webicx').default('primegraphics'),
-});
+}).unknown(true);
 
 router.post('/send-invoice', async (req, res) => {
   try {

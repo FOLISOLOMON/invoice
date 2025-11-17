@@ -272,3 +272,30 @@
 2025-11-15T22:52:12.805Z [warn]: Retry 2: Bad Request - {"errors":[{"message":"The attachment content must be base64 encoded.","field":"attachments.0.content","help":"http://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html#message.attachments.content"}]}
 2025-11-15T22:52:18.251Z [warn]: Retry 3: Bad Request - {"errors":[{"message":"The attachment content must be base64 encoded.","field":"attachments.0.content","help":"http://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/errors.html#message.attachments.content"}]}
 2025-11-15T22:52:29.572Z [error]: Error sending invoice: Bad Request
+2025-11-15T22:53:08.931Z [info]: Server running on port 3000
+2025-11-15T22:53:29.718Z [info]: Generating PDF for invoice WEB-022586
+2025-11-15T22:53:38.880Z [info]: Paystack transaction initialized for WEB-022586: https://checkout.paystack.com/tkzaliwuqhtp47h
+2025-11-15T22:53:49.209Z [info]: Invoice email sent to foliremedy50@gmail.com for WEB-022586
+2025-11-15T23:38:55.389Z [info]: Server running on port 3000
+2025-11-15T23:57:00.322Z [info]: Server running on port 3000
+2025-11-15T23:57:03.836Z [info]: Server running on port 3000
+2025-11-16T00:43:10.155Z [info]: Server running on port 3000
+2025-11-16T01:14:42.937Z [info]: Server running on port 3000
+2025-11-16T04:50:57.460Z [info]: Server running on port 3000
+2025-11-16T04:51:00.151Z [info]: Server running on port 3000
+2025-11-16T05:04:57.190Z [info]: Generating PDF for invoice PRI-457185
+2025-11-16T05:05:11.476Z [info]: Server running on port 3000
+2025-11-16T05:05:29.411Z [info]: Generating PDF for invoice PRI-457185
+2025-11-16T05:06:38.002Z [info]: Paystack transaction initialized for PRI-457185: https://checkout.paystack.com/j3keq5stofmkyy5
+2025-11-16T05:06:40.193Z [info]: Invoice email sent to foliremedy50@gmail.com for PRI-457185
+2025-11-17T12:08:52.051Z [info]: Server running on port 3000
+2025-11-17T12:09:00.910Z [info]: Generating PDF for invoice PRI-958220
+2025-11-17T12:09:31.064Z [info]: Paystack transaction initialized for PRI-958220: https://checkout.paystack.com/a1iiikjq2fhbpuw
+2025-11-17T12:09:32.866Z [info]: Invoice email sent to hioooyoddd@gmail.com for PRI-958220
+2025-11-17T18:20:03.987Z [info]: Server running on port 3000
+2025-11-17T18:20:06.975Z [info]: Server running on port 3000
+2025-11-17T18:20:42.817Z [info]: Generating PDF for invoice TEST-123
+2025-11-17T18:20:46.624Z [info]: Server running on port 3000
+2025-11-17T18:24:41.555Z [info]: Server running on port 3000
+2025-11-17T18:28:14.216Z [info]: Server running on port 3000
+2025-11-17T18:35:01.011Z [info]: Server running on port 3000
