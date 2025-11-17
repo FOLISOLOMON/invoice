@@ -1,7 +1,7 @@
 const sgMail = require('@sendgrid/mail');
 const path = require("path");
 const retry = require('async-retry');
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 const fs = require('fs').promises;
 const logger = require('../utils/logger');
 
